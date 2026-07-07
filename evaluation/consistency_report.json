@@ -1,0 +1,48 @@
+{
+  "_provenance": "Real sample run. Reply text and per-dimension scores were produced by Claude Opus during the build session (same model family LLM_PROVIDER=anthropic calls); retrieval, composite math, and aggregation are computed by the project code. Regenerate with `python run_all.py` + a real LLM_PROVIDER. See sample_run/build_sample_artifacts.py.",
+  "n_runs_per_response": 3,
+  "per_response": [
+    {
+      "id": "in-001",
+      "scores": [
+        4.75,
+        4.75,
+        4.9
+      ],
+      "mean": 4.8,
+      "stdev": 0.071
+    },
+    {
+      "id": "in-002",
+      "scores": [
+        4.65,
+        4.65,
+        4.65
+      ],
+      "mean": 4.65,
+      "stdev": 0.0
+    },
+    {
+      "id": "in-003",
+      "scores": [
+        4.9,
+        4.9,
+        4.75
+      ],
+      "mean": 4.85,
+      "stdev": 0.071
+    },
+    {
+      "id": "in-004",
+      "scores": [
+        4.65,
+        4.5,
+        4.65
+      ],
+      "mean": 4.6,
+      "stdev": 0.071
+    }
+  ],
+  "overall_mean_stdev": 0.053,
+  "interpretation": "Lower is more stable. A mean stdev near 0 on the 0-5 composite scale means repeated scoring of the same reply lands on ~the same number; a mean stdev above ~0.5 would mean the composite isn't precise enough to trust small differences between responses."
+}

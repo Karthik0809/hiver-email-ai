@@ -1,0 +1,50 @@
+[
+  {
+    "id": "in-001",
+    "subject": "Order hasn't arrived, tracking frozen",
+    "customer_name": "Renee Dubois",
+    "incoming_email": "Hi, my order #91004 was supposed to arrive 4 days ago. Tracking has said 'label created' the whole time and hasn't moved. Can someone tell me what's actually happening?"
+  },
+  {
+    "id": "in-002",
+    "subject": "Want a refund for a broken product",
+    "customer_name": "Adaeze Nnamdi",
+    "incoming_email": "The coffee maker I bought (order #48820) leaks water everywhere from the bottom. This is unacceptable for something I paid $80 for. I want my money back."
+  },
+  {
+    "id": "in-003",
+    "subject": "Double charged this month",
+    "customer_name": "Peter Halvorsen",
+    "incoming_email": "I just noticed two identical charges of $45 on my statement this month for my subscription. I should only be billed once. Please fix and refund the extra charge."
+  },
+  {
+    "id": "in-004",
+    "subject": "Can't cancel my plan",
+    "customer_name": "Wanjiru Kamau",
+    "incoming_email": "I've been trying to cancel my subscription for 20 minutes and the cancel button in settings just spins and does nothing. I don't want to be charged again next week."
+  },
+  {
+    "id": "in-005",
+    "subject": "Really unhappy, third time contacting support",
+    "customer_name": "Diego Salcedo",
+    "incoming_email": "This is the third time I'm writing about my missing package. Nobody has actually resolved it, just apologies. I'm extremely frustrated and considering disputing the charge with my bank."
+  },
+  {
+    "id": "in-006",
+    "subject": "Feature suggestion - bulk export",
+    "customer_name": "Nora Lindqvist",
+    "incoming_email": "Would it be possible to add a bulk export option? Right now I have to export one report at a time which is really slow when I need 30 of them."
+  },
+  {
+    "id": "in-007",
+    "subject": "Great job on the recent fix",
+    "customer_name": "Théo Lambert",
+    "incoming_email": "Just wanted to say the sync issue I reported last month is completely fixed now. Really appreciate the quick turnaround, thank you!"
+  },
+  {
+    "id": "in-008",
+    "subject": "Question about shipping to Canada",
+    "customer_name": "Grace Mutua",
+    "incoming_email": "Before I place a large order, can you tell me if you ship to Canada and what the typical delivery time and any customs fees would be?"
+  }
+]

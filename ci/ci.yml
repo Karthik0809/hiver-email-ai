@@ -1,0 +1,36 @@
+name: CI
+
+on:
+  push:
+    branches: [main, master]
+  pull_request:
+
+jobs:
+  test-and-smoke:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+          pip install pytest
+
+      - name: Run unit tests
+        run: python3 -m pytest tests/ -v
+
+      - name: Rebuild dataset from source
+        run: python3 dataset/build_dataset.py
+
+      - name: Pipeline smoke test (offline mock backend - no model required)
+        # CI has no LLM available, so this exercises retrieval, prompting,
+        # and JSON I/O end-to-end without asserting on output quality.
+        # Real quality is judged by evaluate.py/validate_metric.py when run
+        # locally against Ollama/OpenAI/Anthropic (see README).
+        env:
+          LLM_PROVIDER: mock
+        run: python3 run_all.py

@@ -1,0 +1,440 @@
+{
+  "_provenance": "Real sample run. Reply text and per-dimension scores were produced by Claude Opus during the build session (same model family LLM_PROVIDER=anthropic calls); retrieval, composite math, and aggregation are computed by the project code. Regenerate with `python run_all.py` + a real LLM_PROVIDER. See sample_run/build_sample_artifacts.py.",
+  "n_triples": 10,
+  "fully_ordered_good_gt_mediocre_gt_bad": 10,
+  "good_beats_bad": 10,
+  "good_beats_mediocre": 10,
+  "mediocre_beats_bad": 10,
+  "pass": true,
+  "mean_composite_good": 4.96,
+  "mean_composite_mediocre": 3.27,
+  "mean_composite_bad": 2.45,
+  "per_dimension_gap": {
+    "relevance": {
+      "good_minus_mediocre": 2.3,
+      "mediocre_minus_bad": 0.3
+    },
+    "completeness": {
+      "good_minus_mediocre": 2.6,
+      "mediocre_minus_bad": 0.3
+    },
+    "correctness": {
+      "good_minus_mediocre": 1.1,
+      "mediocre_minus_bad": 1.6
+    },
+    "tone": {
+      "good_minus_mediocre": 1.0,
+      "mediocre_minus_bad": 1.0
+    },
+    "actionability": {
+      "good_minus_mediocre": 2.6,
+      "mediocre_minus_bad": 0.4
+    },
+    "conciseness": {
+      "good_minus_mediocre": -0.4,
+      "mediocre_minus_bad": 1.4
+    }
+  },
+  "triples": [
+    {
+      "id": "os-001",
+      "failure_mode": "ignores_the_question",
+      "good": {
+        "tier": "good",
+        "composite": 4.9,
+        "dims": {
+          "relevance": 5,
+          "completeness": 5,
+          "correctness": 5,
+          "tone": 5,
+          "actionability": 5,
+          "conciseness": 4
+        }
+      },
+      "mediocre": {
+        "tier": "mediocre",
+        "composite": 3.0,
+        "dims": {
+          "relevance": 2,
+          "completeness": 2,
+          "correctness": 4,
+          "tone": 4,
+          "actionability": 2,
+          "conciseness": 5
+        }
+      },
+      "bad": {
+        "tier": "bad",
+        "composite": 2.0,
+        "dims": {
+          "relevance": 1,
+          "completeness": 1,
+          "correctness": 3,
+          "tone": 3,
+          "actionability": 1,
+          "conciseness": 4
+        }
+      }
+    },
+    {
+      "id": "rf-001",
+      "failure_mode": "hallucinated_facts",
+      "good": {
+        "tier": "good",
+        "composite": 5.0,
+        "dims": {
+          "relevance": 5,
+          "completeness": 5,
+          "correctness": 5,
+          "tone": 5,
+          "actionability": 5,
+          "conciseness": 5
+        }
+      },
+      "mediocre": {
+        "tier": "mediocre",
+        "composite": 3.55,
+        "dims": {
+          "relevance": 3,
+          "completeness": 3,
+          "correctness": 4,
+          "tone": 4,
+          "actionability": 3,
+          "conciseness": 5
+        }
+      },
+      "bad": {
+        "tier": "bad",
+        "composite": 2.25,
+        "dims": {
+          "relevance": 2,
+          "completeness": 3,
+          "correctness": 0,
+          "tone": 4,
+          "actionability": 4,
+          "conciseness": 3
+        }
+      }
+    },
+    {
+      "id": "es-001",
+      "failure_mode": "generic_apology_no_fix",
+      "good": {
+        "tier": "good",
+        "composite": 4.9,
+        "dims": {
+          "relevance": 5,
+          "completeness": 5,
+          "correctness": 5,
+          "tone": 5,
+          "actionability": 5,
+          "conciseness": 4
+        }
+      },
+      "mediocre": {
+        "tier": "mediocre",
+        "composite": 3.25,
+        "dims": {
+          "relevance": 3,
+          "completeness": 2,
+          "correctness": 4,
+          "tone": 4,
+          "actionability": 2,
+          "conciseness": 5
+        }
+      },
+      "bad": {
+        "tier": "bad",
+        "composite": 2.1,
+        "dims": {
+          "relevance": 2,
+          "completeness": 2,
+          "correctness": 3,
+          "tone": 0,
+          "actionability": 1,
+          "conciseness": 4
+        }
+      }
+    },
+    {
+      "id": "pd-001",
+      "failure_mode": "no_actionable_resolution",
+      "good": {
+        "tier": "good",
+        "composite": 4.9,
+        "dims": {
+          "relevance": 5,
+          "completeness": 5,
+          "correctness": 5,
+          "tone": 5,
+          "actionability": 5,
+          "conciseness": 4
+        }
+      },
+      "mediocre": {
+        "tier": "mediocre",
+        "composite": 3.25,
+        "dims": {
+          "relevance": 3,
+          "completeness": 2,
+          "correctness": 4,
+          "tone": 4,
+          "actionability": 2,
+          "conciseness": 5
+        }
+      },
+      "bad": {
+        "tier": "bad",
+        "composite": 2.6,
+        "dims": {
+          "relevance": 2,
+          "completeness": 1,
+          "correctness": 4,
+          "tone": 4,
+          "actionability": 1,
+          "conciseness": 4
+        }
+      }
+    },
+    {
+      "id": "bd-001",
+      "failure_mode": "vague_acknowledgement",
+      "good": {
+        "tier": "good",
+        "composite": 5.0,
+        "dims": {
+          "relevance": 5,
+          "completeness": 5,
+          "correctness": 5,
+          "tone": 5,
+          "actionability": 5,
+          "conciseness": 5
+        }
+      },
+      "mediocre": {
+        "tier": "mediocre",
+        "composite": 3.55,
+        "dims": {
+          "relevance": 3,
+          "completeness": 3,
+          "correctness": 4,
+          "tone": 4,
+          "actionability": 3,
+          "conciseness": 5
+        }
+      },
+      "bad": {
+        "tier": "bad",
+        "composite": 2.35,
+        "dims": {
+          "relevance": 2,
+          "completeness": 2,
+          "correctness": 4,
+          "tone": 4,
+          "actionability": 1,
+          "conciseness": 0
+        }
+      }
+    },
+    {
+      "id": "cn-003",
+      "failure_mode": "no_clear_decision",
+      "good": {
+        "tier": "good",
+        "composite": 5.0,
+        "dims": {
+          "relevance": 5,
+          "completeness": 5,
+          "correctness": 5,
+          "tone": 5,
+          "actionability": 5,
+          "conciseness": 5
+        }
+      },
+      "mediocre": {
+        "tier": "mediocre",
+        "composite": 3.4,
+        "dims": {
+          "relevance": 3,
+          "completeness": 3,
+          "correctness": 4,
+          "tone": 4,
+          "actionability": 2,
+          "conciseness": 5
+        }
+      },
+      "bad": {
+        "tier": "bad",
+        "composite": 2.85,
+        "dims": {
+          "relevance": 4,
+          "completeness": 3,
+          "correctness": 1,
+          "tone": 3,
+          "actionability": 3,
+          "conciseness": 4
+        }
+      }
+    },
+    {
+      "id": "aa-001",
+      "failure_mode": "generic_troubleshoot",
+      "good": {
+        "tier": "good",
+        "composite": 5.0,
+        "dims": {
+          "relevance": 5,
+          "completeness": 5,
+          "correctness": 5,
+          "tone": 5,
+          "actionability": 5,
+          "conciseness": 5
+        }
+      },
+      "mediocre": {
+        "tier": "mediocre",
+        "composite": 3.15,
+        "dims": {
+          "relevance": 3,
+          "completeness": 2,
+          "correctness": 3,
+          "tone": 4,
+          "actionability": 3,
+          "conciseness": 5
+        }
+      },
+      "bad": {
+        "tier": "bad",
+        "composite": 2.65,
+        "dims": {
+          "relevance": 2,
+          "completeness": 2,
+          "correctness": 3,
+          "tone": 4,
+          "actionability": 2,
+          "conciseness": 4
+        }
+      }
+    },
+    {
+      "id": "sd-001",
+      "failure_mode": "generic_wait_and_see",
+      "good": {
+        "tier": "good",
+        "composite": 4.9,
+        "dims": {
+          "relevance": 5,
+          "completeness": 5,
+          "correctness": 5,
+          "tone": 5,
+          "actionability": 5,
+          "conciseness": 4
+        }
+      },
+      "mediocre": {
+        "tier": "mediocre",
+        "composite": 3.0,
+        "dims": {
+          "relevance": 2,
+          "completeness": 2,
+          "correctness": 4,
+          "tone": 4,
+          "actionability": 2,
+          "conciseness": 5
+        }
+      },
+      "bad": {
+        "tier": "bad",
+        "composite": 2.3,
+        "dims": {
+          "relevance": 2,
+          "completeness": 2,
+          "correctness": 3,
+          "tone": 2,
+          "actionability": 1,
+          "conciseness": 4
+        }
+      }
+    },
+    {
+      "id": "rf-004",
+      "failure_mode": "half_answer",
+      "good": {
+        "tier": "good",
+        "composite": 5.0,
+        "dims": {
+          "relevance": 5,
+          "completeness": 5,
+          "correctness": 5,
+          "tone": 5,
+          "actionability": 5,
+          "conciseness": 5
+        }
+      },
+      "mediocre": {
+        "tier": "mediocre",
+        "composite": 3.55,
+        "dims": {
+          "relevance": 3,
+          "completeness": 3,
+          "correctness": 4,
+          "tone": 4,
+          "actionability": 3,
+          "conciseness": 5
+        }
+      },
+      "bad": {
+        "tier": "bad",
+        "composite": 3.0,
+        "dims": {
+          "relevance": 4,
+          "completeness": 3,
+          "correctness": 1,
+          "tone": 3,
+          "actionability": 4,
+          "conciseness": 4
+        }
+      }
+    },
+    {
+      "id": "fr-003",
+      "failure_mode": "deflects_no_info",
+      "good": {
+        "tier": "good",
+        "composite": 5.0,
+        "dims": {
+          "relevance": 5,
+          "completeness": 5,
+          "correctness": 5,
+          "tone": 5,
+          "actionability": 5,
+          "conciseness": 5
+        }
+      },
+      "mediocre": {
+        "tier": "mediocre",
+        "composite": 3.0,
+        "dims": {
+          "relevance": 2,
+          "completeness": 2,
+          "correctness": 4,
+          "tone": 4,
+          "actionability": 2,
+          "conciseness": 5
+        }
+      },
+      "bad": {
+        "tier": "bad",
+        "composite": 2.4,
+        "dims": {
+          "relevance": 3,
+          "completeness": 2,
+          "correctness": 1,
+          "tone": 3,
+          "actionability": 2,
+          "conciseness": 5
+        }
+      }
+    }
+  ]
+}

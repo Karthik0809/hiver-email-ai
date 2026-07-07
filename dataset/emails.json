@@ -1,0 +1,322 @@
+[
+  {
+    "id": "os-001",
+    "category": "order_status",
+    "customer_name": "Priya Nair",
+    "subject": "Where is my order #48213?",
+    "incoming_email": "Hi, I placed order #48213 five days ago and it still shows 'Processing'. Your site said 2-3 day delivery. Can you tell me what's going on and when it will actually arrive?",
+    "reply": "Hi Priya,\n\nThanks for flagging this, and sorry for the delay. I checked order #48213 and it left our warehouse yesterday evening \u2014 tracking number IN29938217X, carrier BlueDart. It's showing an estimated delivery of tomorrow by 8pm.\n\nThe delay on our end was a stock recheck on one item in your order; it's fully resolved now and won't affect anything else in the shipment.\n\nHere's the live tracking link: [tracking link]. Let me know if it doesn't arrive by tomorrow evening and I'll escalate it immediately.\n\nBest,\nSupport Team"
+  },
+  {
+    "id": "os-002",
+    "category": "order_status",
+    "customer_name": "Daniel Osei",
+    "subject": "Order status - urgent, gift for tomorrow",
+    "incoming_email": "I need order #55021 to arrive by tomorrow morning, it's a birthday gift. Can you confirm it will make it or if not, what are my options?",
+    "reply": "Hi Daniel,\n\nI understand the urgency. I checked order #55021 and unfortunately standard shipping won't get it there by tomorrow morning \u2014 current ETA is 2 days out.\n\nTwo options: (1) I can upgrade you to overnight shipping at no extra cost given the timing, which would get it to you by tomorrow by 10am, or (2) if that's too tight, I can process a full refund right away.\n\nJust reply and let me know which you'd prefer and I'll process it within the hour.\n\nBest,\nSupport Team"
+  },
+  {
+    "id": "os-003",
+    "category": "order_status",
+    "customer_name": "Maria Gonzalez",
+    "subject": "Tracking number not working",
+    "incoming_email": "The tracking number you sent me (7719203845) says 'not found' on the carrier's website. Did something go wrong with my order #61190?",
+    "reply": "Hi Maria,\n\nGood catch \u2014 that tracking number takes about 24 hours to become active in the carrier's system after the label is printed, so it's normal for it to show 'not found' right after shipping. Your order #61190 was picked up by the carrier this morning.\n\nIt should populate on their site by tomorrow morning. If it's still showing 'not found' after that, reply here and I'll investigate directly with the carrier.\n\nBest,\nSupport Team"
+  },
+  {
+    "id": "os-004",
+    "category": "order_status",
+    "customer_name": "Tom Whitfield",
+    "subject": "Wrong address on order",
+    "incoming_email": "I just realized I entered my old address on order #58822 which shipped an hour ago. Can this be fixed?",
+    "reply": "Hi Tom,\n\nThanks for catching this quickly. Since #58822 has already shipped, I can't edit the address directly, but I've contacted the carrier to request an address correction/redirect to your new address \u2014 this usually takes 1-2 business days to process on their end and I'll confirm once it's approved.\n\nIf the redirect isn't accepted for any reason, the package will return to us automatically and I'll reship it to the correct address at no cost. I'll keep you posted either way.\n\nBest,\nSupport Team"
+  },
+  {
+    "id": "os-005",
+    "category": "order_status",
+    "customer_name": "Aisha Rahman",
+    "subject": "Order split into two shipments?",
+    "incoming_email": "I only received 1 of 3 items from order #60044. Is the rest coming separately or did something get lost?",
+    "reply": "Hi Aisha,\n\nNothing's lost \u2014 order #60044 was split into two shipments because one item was fulfilled from a different warehouse. You received the first package today; the second (containing the remaining 2 items) shipped this morning and is tracking to arrive in 2-3 days.\n\nHere's the tracking for the second package: [tracking link]. Sorry for not flagging the split shipment up front \u2014 I'll pass that feedback along so it's clearer at checkout going forward.\n\nBest,\nSupport Team"
+  },
+  {
+    "id": "rf-001",
+    "category": "refund_request",
+    "customer_name": "James Carter",
+    "subject": "Requesting refund for damaged item",
+    "incoming_email": "The lamp I ordered (order #33012) arrived with a cracked base. I've attached photos. I'd like a full refund rather than a replacement.",
+    "reply": "Hi James,\n\nI'm sorry the lamp arrived damaged \u2014 thanks for including photos, that's really helpful and confirms the shipping damage. I've processed a full refund of $42.99 to your original payment method; you should see it in 3-5 business days.\n\nNo need to return the damaged item, please just dispose of it or recycle it. Thanks for your patience, and sorry again for the inconvenience.\n\nBest,\nSupport Team"
+  },
+  {
+    "id": "rf-002",
+    "category": "refund_request",
+    "customer_name": "Lucia Ferrara",
+    "subject": "Refund for cancelled subscription",
+    "incoming_email": "I cancelled my subscription on the 3rd but was charged again on the 5th. I want that charge refunded.",
+    "reply": "Hi Lucia,\n\nYou're right, I can see the cancellation went through on the 3rd but the billing cycle had already queued the renewal charge before it processed \u2014 that's on us. I've refunded the $19 charge from the 5th in full; it'll land back on your card in 3-5 business days.\n\nYour subscription is confirmed cancelled with no further charges. Sorry for the mix-up.\n\nBest,\nSupport Team"
+  },
+  {
+    "id": "rf-003",
+    "category": "refund_request",
+    "customer_name": "Ben Sutherland",
+    "subject": "Refund request - item not as described",
+    "incoming_email": "The jacket I ordered was listed as waterproof but it's clearly not \u2014 soaked through in light rain. I want a refund.",
+    "reply": "Hi Ben,\n\nThat's not the experience we want you to have, and if the listing said waterproof, that should hold up. I've issued a full refund to your original payment method (3-5 business days to appear), and you're welcome to keep or donate the jacket \u2014 no return needed.\n\nI'm also flagging the listing to our catalog team to double check the waterproofing claim. Thanks for reporting this.\n\nBest,\nSupport Team"
+  },
+  {
+    "id": "rf-004",
+    "category": "refund_request",
+    "customer_name": "Grace Kim",
+    "subject": "Can I get a partial refund instead of returning?",
+    "incoming_email": "I ordered the wrong size but honestly the return shipping hassle isn't worth it for a $15 item. Could I just get some money back and keep it?",
+    "reply": "Hi Grace,\n\nTotally understand \u2014 for an item this size, a return isn't worth the hassle either way. I can offer a partial refund of $7 (50%) and you're welcome to keep the item, no return needed. Let me know if that works and I'll process it right away.\n\nBest,\nSupport Team"
+  },
+  {
+    "id": "rf-005",
+    "category": "refund_request",
+    "customer_name": "Oscar Lindgren",
+    "subject": "Refund taking too long",
+    "incoming_email": "You told me on a call last week my refund was approved. It's been 9 business days and I still don't see it. What's happening?",
+    "reply": "Hi Oscar,\n\nSorry for the wait \u2014 9 business days is longer than it should take, and I want to get to the bottom of it. I checked your account and the refund of $84.50 was approved on the 12th but I can see it's still sitting in a pending state on our end rather than having actually been sent to your bank.\n\nI've just manually pushed it through; you should see it within 2-3 business days now. I'll personally follow up on the 20th to confirm it landed \u2014 sorry again for the delay.\n\nBest,\nSupport Team"
+  },
+  {
+    "id": "sd-001",
+    "category": "shipping_delay",
+    "customer_name": "Nadia Petrov",
+    "subject": "Package stuck in transit for a week",
+    "incoming_email": "Tracking for order #71235 hasn't updated in 7 days, still says 'in transit'. Is it lost?",
+    "reply": "Hi Nadia,\n\nA 7-day gap in tracking updates is longer than normal, so I opened a trace request with the carrier this morning for order #71235. They typically respond within 2 business days.\n\nIn the meantime, if you'd rather not wait, I'm happy to send a free replacement now and simply redirect or refuse the original package if it does show up later \u2014 your call. Let me know which you'd prefer.\n\nBest,\nSupport Team"
+  },
+  {
+    "id": "sd-002",
+    "category": "shipping_delay",
+    "customer_name": "Ryan Delacroix",
+    "subject": "Weather delay - any update?",
+    "incoming_email": "I got a notification about a weather delay on my order. Any idea on new delivery timeline?",
+    "reply": "Hi Ryan,\n\nYes \u2014 the carrier flagged regional weather disruptions affecting deliveries in your area. Your new estimated delivery window is 2-3 days later than originally quoted, so around [date]. Everything else about your order is unaffected.\n\nI'll keep an eye on it and reach out if anything changes further. Thanks for your patience with this one.\n\nBest,\nSupport Team"
+  },
+  {
+    "id": "sd-003",
+    "category": "shipping_delay",
+    "customer_name": "Fatima Al-Sayed",
+    "subject": "International shipping customs delay",
+    "incoming_email": "My order has been stuck 'in customs' for 12 days. This is really frustrating, can you help?",
+    "reply": "Hi Fatima,\n\nI completely understand the frustration \u2014 12 days in customs is unusually long. I've reached out to our customs broker directly to check on the hold-up; the most common cause is a documentation review, which they should be able to clear within 3-5 business days.\n\nIf it's not cleared by then, I'll arrange a reshipment through a different route or a full refund, whichever you'd prefer at that point. I'll check back in with you either way by [date].\n\nBest,\nSupport Team"
+  },
+  {
+    "id": "sd-004",
+    "category": "shipping_delay",
+    "customer_name": "Chris Ndlovu",
+    "subject": "Missed delivery window",
+    "incoming_email": "I stayed home all day for a delivery window of 9am-1pm and no one showed up. What now?",
+    "reply": "Hi Chris,\n\nI'm sorry \u2014 that's a wasted day on your end, and that's on the carrier missing their window. I've rebooked the delivery for tomorrow with a tighter 2-hour window (9am-11am) and flagged it as priority so it isn't missed again.\n\nAs an apology for the wasted day, I've also applied a $10 credit to your account. I'll personally check tomorrow that it went through.\n\nBest,\nSupport Team"
+  },
+  {
+    "id": "bd-001",
+    "category": "billing_dispute",
+    "customer_name": "Helena Brandt",
+    "subject": "Charged twice for the same order",
+    "incoming_email": "I see two charges of $67.40 on my card for what should be one order (#40521). Please fix this.",
+    "reply": "Hi Helena,\n\nI checked and you're right \u2014 order #40521 was accidentally charged twice due to a payment retry glitch on our end. I've refunded the duplicate charge of $67.40; it'll appear back on your card within 3-5 business days. Only the original charge stands.\n\nSorry for the confusion, and thanks for catching it.\n\nBest,\nSupport Team"
+  },
+  {
+    "id": "bd-002",
+    "category": "billing_dispute",
+    "customer_name": "Victor Amaro",
+    "subject": "Unexpected annual charge",
+    "incoming_email": "I thought my plan was monthly but I just got charged $180 for a year. I don't remember agreeing to that.",
+    "reply": "Hi Victor,\n\nLooking at your account, it shows you switched to the annual plan on [date], likely during the upgrade flow \u2014 I understand that's not always obvious when it happens, and I'm sorry for the confusion it caused.\n\nSince this was clearly not your intent, I've refunded the $180 in full and reset your account to monthly billing at $18/mo going forward. You'll see the refund in 3-5 business days.\n\nBest,\nSupport Team"
+  },
+  {
+    "id": "bd-003",
+    "category": "billing_dispute",
+    "customer_name": "Sofia Marchetti",
+    "subject": "Currency conversion charged more than expected",
+    "incoming_email": "The price showed $29 but I was charged the equivalent of $34 after currency conversion. Is that a fee on your end?",
+    "reply": "Hi Sofia,\n\nGood question \u2014 the $29 is what we charge in USD; the extra amount comes from your card issuer's currency conversion and international transaction fees, which we don't set or receive any part of. I know that's not a satisfying answer when the price looked different.\n\nIf you'd like to avoid this going forward, using a card with no foreign transaction fees, or checking if your bank offers USD-denominated cards, usually resolves it. Let me know if you'd like me to look into anything else.\n\nBest,\nSupport Team"
+  },
+  {
+    "id": "bd-004",
+    "category": "billing_dispute",
+    "customer_name": "Ahmed Farouk",
+    "subject": "Invoice missing tax breakdown",
+    "incoming_email": "I need an invoice with a proper tax breakdown for accounting purposes, the one I got just shows a lump sum.",
+    "reply": "Hi Ahmed,\n\nOf course \u2014 I've generated a revised invoice for your last payment with the tax broken out as a separate line item and attached it here. Going forward, all invoices from your account will include this breakdown automatically.\n\nLet me know if your accounting team needs anything else on it (like a specific tax ID field).\n\nBest,\nSupport Team"
+  },
+  {
+    "id": "pd-001",
+    "category": "product_defect",
+    "customer_name": "Wendy Cho",
+    "subject": "Blender stopped working after 2 weeks",
+    "incoming_email": "My blender (order #29981) just stopped turning on after only 2 weeks of light use. It's still under warranty right?",
+    "reply": "Hi Wendy,\n\nYes, you're well within the 1-year warranty on that blender, and 2 weeks is far too soon for it to fail. I'm sorry for the trouble.\n\nI've set up a free replacement, which will ship out today with expedited shipping \u2014 no need to return the faulty unit, just dispose of it safely (please don't attempt to open or repair it, as the motor housing can pose a hazard). You should have the new one in 2-3 days.\n\nBest,\nSupport Team"
+  },
+  {
+    "id": "pd-002",
+    "category": "product_defect",
+    "customer_name": "Marcus Webb",
+    "subject": "App keeps crashing on checkout",
+    "incoming_email": "Every time I try to check out on the mobile app it crashes. I've tried reinstalling. Really frustrating, I just want to buy the thing.",
+    "reply": "Hi Marcus,\n\nSorry about that \u2014 a checkout crash is a serious bug and I want to get you unblocked right away. As an immediate workaround, you can complete your purchase through our mobile website (same cart, just open [link] in your phone's browser) rather than the app.\n\nI've also filed this with our engineering team with your device details so they can reproduce and fix it. I'll follow up once it's resolved in the app itself.\n\nBest,\nSupport Team"
+  },
+  {
+    "id": "pd-003",
+    "category": "product_defect",
+    "customer_name": "Ella Fitzgerald",
+    "subject": "Received the wrong color",
+    "incoming_email": "I ordered the navy backpack but received black. Order #52290.",
+    "reply": "Hi Ella,\n\nSorry about that mix-up \u2014 I've shipped out the correct navy backpack today with expedited shipping, no charge, tracking to follow shortly.\n\nFor the black one you received, no need to return it; please keep it with our compliments for the inconvenience.\n\nBest,\nSupport Team"
+  },
+  {
+    "id": "pd-004",
+    "category": "product_defect",
+    "customer_name": "Ivan Petrenko",
+    "subject": "Software license key not working",
+    "incoming_email": "The license key you emailed me says 'invalid' when I try to activate it. I need this working for a client demo tomorrow.",
+    "reply": "Hi Ivan,\n\nI hear the urgency \u2014 I checked and the key that was issued had a formatting error on our end (an extra character). Here's a corrected, verified key: [XXXX-XXXX-XXXX-XXXX]. I just tested it against your account and confirmed it activates cleanly.\n\nIf you hit any issue tonight before your demo, reply to this email and I'll be monitoring \u2014 happy to hop on a quick call if needed.\n\nBest,\nSupport Team"
+  },
+  {
+    "id": "pd-005",
+    "category": "product_defect",
+    "customer_name": "Naomi Baptiste",
+    "subject": "Chair arrived with a broken wheel",
+    "incoming_email": "One wheel on the office chair I ordered (#66710) is cracked and doesn't roll properly.",
+    "reply": "Hi Naomi,\n\nSorry to hear that \u2014 a single cracked caster is an easy fix without needing to send the whole chair back. I've shipped a replacement wheel set (5 casters) at no charge; it should arrive in 2-3 days and swaps in without tools, just pulls out and clicks in.\n\nIf you'd rather have the full chair replaced instead, just let me know and I'll arrange that instead.\n\nBest,\nSupport Team"
+  },
+  {
+    "id": "cn-001",
+    "category": "cancellation",
+    "customer_name": "Derek Simmons",
+    "subject": "Cancel my order please",
+    "incoming_email": "Please cancel order #77102, I found it cheaper elsewhere.",
+    "reply": "Hi Derek,\n\nNo problem \u2014 order #77102 has been cancelled and it hadn't shipped yet, so no charge will go through (or if it was already authorized, it'll simply drop off within a few days and never settle).\n\nSorry to see you go on this one, and hope the alternative works out well for you.\n\nBest,\nSupport Team"
+  },
+  {
+    "id": "cn-002",
+    "category": "cancellation",
+    "customer_name": "Rania Haddad",
+    "subject": "Want to cancel subscription but keep my data",
+    "incoming_email": "I want to cancel my subscription but I don't want to lose all my saved projects. Is that possible?",
+    "reply": "Hi Rania,\n\nGood news \u2014 cancelling your subscription doesn't delete your data. Your projects will remain saved and accessible in read-only mode for 12 months after cancellation, so you can always resubscribe later and pick up where you left off, or export everything in the meantime.\n\nI've gone ahead and cancelled the subscription as requested; it'll stay active through the end of your current billing period ([date]).\n\nBest,\nSupport Team"
+  },
+  {
+    "id": "cn-003",
+    "category": "cancellation",
+    "customer_name": "Kwame Boateng",
+    "subject": "Cancellation fee dispute",
+    "incoming_email": "I was charged a $25 cancellation fee I didn't know existed. No one told me about this when I signed up.",
+    "reply": "Hi Kwame,\n\nYou're right to flag this \u2014 that fee only applies to annual plans cancelled in the first 30 days, and I can see that wasn't made clear enough during signup. That's a fair complaint.\n\nI've waived and refunded the $25 fee as a one-time exception; it'll be back on your card in 3-5 business days. I'm also passing this along so we make that term more visible at signup going forward.\n\nBest,\nSupport Team"
+  },
+  {
+    "id": "cn-004",
+    "category": "cancellation",
+    "customer_name": "Yuki Tanaka",
+    "subject": "How do I cancel my trial before it charges me",
+    "incoming_email": "My free trial ends in 2 days and I don't want to be charged. How do I cancel?",
+    "reply": "Hi Yuki,\n\nEasy \u2014 go to Settings > Billing > Manage Subscription and click 'Cancel Trial'. That stops any charge from happening; you'll keep access through the end of your trial period ([date]) with no card charge afterward.\n\nIf you run into any trouble finding that option, just reply here and I'll cancel it for you directly, well before your trial ends.\n\nBest,\nSupport Team"
+  },
+  {
+    "id": "aa-001",
+    "category": "account_access",
+    "customer_name": "Isabel Moreno",
+    "subject": "Locked out of my account",
+    "incoming_email": "I can't log in, it says my password is wrong but I know it's correct. I've tried resetting it twice and never get the email.",
+    "reply": "Hi Isabel,\n\nSorry for the trouble. I checked and the reset emails were being sent, but likely landing in spam or a filtered folder \u2014 I've just resent one to your registered address; please also check spam/junk this time.\n\nIf it still doesn't arrive within 10 minutes, reply here with the email address on the account and I can manually trigger a reset from our side instead.\n\nBest,\nSupport Team"
+  },
+  {
+    "id": "aa-002",
+    "category": "account_access",
+    "customer_name": "Tobias Lindqvist",
+    "subject": "Need to change email on file",
+    "incoming_email": "I no longer have access to the email address on my account. How do I update it?",
+    "reply": "Hi Tobias,\n\nSince you can't access the old email, I can't make the change purely from a self-service link (that would go to the old inbox). To verify it's really you, could you reply with the full name and billing zip/postal code on the account?\n\nOnce I confirm those match, I'll update the email on file right away and send a confirmation to the new address.\n\nBest,\nSupport Team"
+  },
+  {
+    "id": "aa-003",
+    "category": "account_access",
+    "customer_name": "Chidi Eze",
+    "subject": "Two-factor authentication not sending codes",
+    "incoming_email": "I'm not getting my 2FA text codes anymore, been stuck out of my account for 2 days.",
+    "reply": "Hi Chidi,\n\nThat's frustrating, sorry for the delay in getting this sorted. Since SMS delivery can be unreliable in some regions/carriers, I've temporarily disabled 2FA on your account so you can log in right now with just your password.\n\nOnce you're in, I'd recommend switching to an authenticator app (like Google Authenticator) under Settings > Security instead of SMS \u2014 it's more reliable. Let me know if you'd like a hand setting that up.\n\nBest,\nSupport Team"
+  },
+  {
+    "id": "fr-001",
+    "category": "feature_request",
+    "customer_name": "Sam Whitcombe",
+    "subject": "Please add dark mode",
+    "incoming_email": "Any plans to add a dark mode to the dashboard? Would really help for late-night use.",
+    "reply": "Hi Sam,\n\nGreat suggestion, and you're not the first to ask! Dark mode is on our product roadmap, though I don't have a confirmed ship date yet. I've added your vote to the feature request, which does help us prioritize.\n\nI'll make sure you're notified if you're subscribed to release notes when it ships. Thanks for the feedback.\n\nBest,\nSupport Team"
+  },
+  {
+    "id": "fr-002",
+    "category": "feature_request",
+    "customer_name": "Beatrice Okonkwo",
+    "subject": "Export to Excel not just CSV",
+    "incoming_email": "Can you add an export-to-Excel option? CSV is fine but Excel with formatting would save me a lot of manual work.",
+    "reply": "Hi Beatrice,\n\nThat makes sense \u2014 CSV loses a lot of the formatting that'd be useful for your workflow. I've logged this as a feature request with our product team, specifically noting the formatting need you mentioned, since that's more specific than a plain export request.\n\nIn the meantime, if it helps, most CSV exports open reasonably well in Excel with 'Text to Columns' preset to comma-delimited \u2014 not ideal, but a stopgap. I'll update you if/when native Excel export ships.\n\nBest,\nSupport Team"
+  },
+  {
+    "id": "fr-003",
+    "category": "feature_request",
+    "customer_name": "Hugo Alarcon",
+    "subject": "API rate limits too low for our use case",
+    "incoming_email": "Our integration keeps hitting your API rate limit of 100 req/min. Can this be increased?",
+    "reply": "Hi Hugo,\n\nThanks for the detail \u2014 100 req/min is our standard tier limit, but higher-throughput limits are available on our Business plan (up to 1000 req/min) or via a custom limit for enterprise use cases.\n\nCould you share roughly what volume you're expecting at peak? That'll help me recommend the right tier, or loop in our solutions team if you need something custom.\n\nBest,\nSupport Team"
+  },
+  {
+    "id": "es-001",
+    "category": "escalation",
+    "customer_name": "Patricia Adeyemi",
+    "subject": "This is my third email about the same issue",
+    "incoming_email": "I've emailed twice already about my missing refund and gotten no real answer, just generic replies. I'm losing patience and considering a chargeback.",
+    "reply": "Hi Patricia,\n\nYou're right to be frustrated, and I'm sorry the previous replies didn't actually resolve this \u2014 that shouldn't have happened twice. I've pulled up the full thread and confirmed the refund of $56.20 was approved on [date] but never actually processed due to an internal error.\n\nI've personally pushed it through just now; you'll see it in 2-3 business days, faster than our usual window given the delay you've already experienced. I'm also flagging your case to my team lead so this gets a direct point of contact if anything else comes up \u2014 no more generic replies. Truly sorry for the runaround.\n\nBest,\nSupport Team"
+  },
+  {
+    "id": "es-002",
+    "category": "escalation",
+    "customer_name": "George Papadopoulos",
+    "subject": "Considering leaving a bad review",
+    "incoming_email": "Between the shipping delay and the damaged item, this has been a terrible experience. I'm about to leave a 1-star review unless someone actually fixes this.",
+    "reply": "Hi George,\n\nI'd be frustrated too after a shipping delay and a damaged item on top of it \u2014 that's a genuinely bad experience and I want to actually fix it, not just apologize.\n\nHere's what I've done: full refund of $93.40 processed just now (3-5 business days), plus I'm sending a replacement item free of charge with expedited shipping since I understand you may still want the product. You don't need to return the damaged one.\n\nI'd rather earn back your trust than ask you not to post a review \u2014 but I hope this shows we take it seriously. Reply directly to me if anything about this order still isn't right.\n\nBest,\nSupport Team"
+  },
+  {
+    "id": "es-003",
+    "category": "escalation",
+    "customer_name": "Mei Lin",
+    "subject": "Demanding to speak to a manager",
+    "incoming_email": "I want to speak to a manager right now. Your support has been useless and I've wasted an hour on this.",
+    "reply": "Hi Mei,\n\nI hear you, and I'm sorry for the time you've lost on this \u2014 that's a legitimate complaint. I've escalated your case directly to my team lead, [Name], who will reach out within the next 2 hours by phone or email, whichever you prefer.\n\nIn the meantime, can you let me know the best number or confirm email is fine? I want to make sure this doesn't get delayed any further.\n\nBest,\nSupport Team"
+  },
+  {
+    "id": "pf-001",
+    "category": "positive_feedback",
+    "customer_name": "Oliver Bennett",
+    "subject": "Great support experience",
+    "incoming_email": "Just wanted to say thank you, my issue was resolved so quickly yesterday. Really appreciated the fast response.",
+    "reply": "Hi Oliver,\n\nThat really made our day to read \u2014 thank you for taking the time to write in. I've passed your note along to the agent who helped you and to our team lead.\n\nIf anything else comes up, we're always here. Thanks again!\n\nBest,\nSupport Team"
+  },
+  {
+    "id": "pf-002",
+    "category": "positive_feedback",
+    "customer_name": "Sara Lindholm",
+    "subject": "Love the new update",
+    "incoming_email": "The new dashboard update is fantastic, so much faster than before. Nice work to your team!",
+    "reply": "Hi Sara,\n\nThank you so much \u2014 I'll be sure to pass this along to our product and engineering team, they'll be glad to hear it landed well, especially the speed improvements since that was a big focus of the update.\n\nLet us know if you spot anything else, good or bad, as you keep using it!\n\nBest,\nSupport Team"
+  },
+  {
+    "id": "gi-001",
+    "category": "general_inquiry",
+    "customer_name": "Karim Benali",
+    "subject": "Do you ship to Morocco?",
+    "incoming_email": "Quick question before I order \u2014 do you ship internationally, specifically to Morocco? And roughly how long would it take?",
+    "reply": "Hi Karim,\n\nYes, we do ship to Morocco. Standard international shipping typically takes 10-15 business days, though customs processing can occasionally add a few extra days depending on the item.\n\nShipping cost and exact timing will show at checkout once you enter your address, based on what's in your cart. Let me know if you have any other questions before ordering.\n\nBest,\nSupport Team"
+  },
+  {
+    "id": "gi-002",
+    "category": "general_inquiry",
+    "customer_name": "Louise Fontaine",
+    "subject": "Is this compatible with my setup?",
+    "incoming_email": "Will your integration work with Zendesk, or only Gmail/Outlook? Trying to figure out if this fits our stack before I sign up.",
+    "reply": "Hi Louise,\n\nGood question to check before signing up. Right now we support native integrations with Gmail and Outlook; Zendesk isn't a direct native integration, but it can be connected via our API/webhooks if your team has some engineering resource for a lightweight setup.\n\nIf useful, I can share our API docs and a rough estimate of setup effort, or connect you with our solutions team for a quick compatibility check. Just let me know.\n\nBest,\nSupport Team"
+  }
+]

@@ -1,0 +1,130 @@
+[
+  {
+    "id": "in-001",
+    "subject": "Order hasn't arrived, tracking frozen",
+    "incoming_email": "Hi, my order #91004 was supposed to arrive 4 days ago. Tracking has said 'label created' the whole time and hasn't moved. Can someone tell me what's actually happening?",
+    "generated_reply": "Hi there,\n\nThanks for reaching out, and I'm sorry order #91004 is running late. When tracking sits at 'label created' it usually means the carrier generated the shipping label but hasn't scanned the package into their network yet - a day of that is normal, but four days is longer than it should be, so I don't want to just ask you to keep waiting.\n\nI'm opening a trace request with the carrier now to find out exactly where #91004 is; they typically get back to us within 1-2 business days. If it turns out the package never entered their network, I'll get a replacement sent out right away rather than leave you waiting on it. I'll follow up as soon as I hear back either way.\n\nBest,\nSupport Team",
+    "retrieved_example_ids": [
+      "os-001",
+      "sd-001",
+      "os-003"
+    ],
+    "retrieved_scores": [
+      0.404,
+      0.316,
+      0.233
+    ]
+  },
+  {
+    "id": "in-002",
+    "subject": "Want a refund for a broken product",
+    "incoming_email": "The coffee maker I bought (order #48820) leaks water everywhere from the bottom. This is unacceptable for something I paid $80 for. I want my money back.",
+    "generated_reply": "Hi there,\n\nI'm sorry - a coffee maker that leaks from the bottom is a clear defect, and that's not what you paid for. You shouldn't have to fight for a refund on something that arrived broken.\n\nI've started a full refund for order #48820 back to your original payment method; refunds typically take 3-5 business days to appear. There's no need to ship the faulty unit back - please feel free to recycle or dispose of it - and I'm flagging this to our quality team to look into the leak.\n\nIf you'd rather have a replacement sent instead of the refund, just say the word and I'll arrange that right away.\n\nBest,\nSupport Team",
+    "retrieved_example_ids": [
+      "cn-002",
+      "rf-003",
+      "rf-002"
+    ],
+    "retrieved_scores": [
+      0.332,
+      0.251,
+      0.187
+    ]
+  },
+  {
+    "id": "in-003",
+    "subject": "Double charged this month",
+    "incoming_email": "I just noticed two identical charges of $45 on my statement this month for my subscription. I should only be billed once. Please fix and refund the extra charge.",
+    "generated_reply": "Hi there,\n\nThanks for catching this, and sorry for the scare - you should only ever be billed once for your subscription. Two identical $45 charges in the same cycle points to a duplicate billing error on our end, not anything you did.\n\nI've submitted a refund for the extra $45 charge; it'll post back to your original payment method within 3-5 business days, leaving just the one correct charge in place. I'm also having our billing team check why the duplicate went through so it doesn't repeat next cycle.\n\nIf a second charge ever shows up again, reply here and I'll get on it immediately.\n\nBest,\nSupport Team",
+    "retrieved_example_ids": [
+      "rf-002",
+      "bd-001",
+      "bd-002"
+    ],
+    "retrieved_scores": [
+      0.439,
+      0.372,
+      0.219
+    ]
+  },
+  {
+    "id": "in-004",
+    "subject": "Can't cancel my plan",
+    "incoming_email": "I've been trying to cancel my subscription for 20 minutes and the cancel button in settings just spins and does nothing. I don't want to be charged again next week.",
+    "generated_reply": "Hi there,\n\nSorry about that - a cancel button that just spins is a bug on our side, and I don't want it to cause you to be charged for another week.\n\nSo you're not stuck waiting on it, I've gone ahead and cancelled your subscription directly from our end. You'll keep access through the end of your current billing period, with no further charges after that, and you'll get a cancellation confirmation by email shortly. I've also reported the broken cancel button to our engineering team.\n\nIf that confirmation doesn't arrive soon, just reply here and I'll re-check it for you.\n\nBest,\nSupport Team",
+    "retrieved_example_ids": [
+      "cn-002",
+      "cn-001",
+      "cn-004"
+    ],
+    "retrieved_scores": [
+      0.557,
+      0.491,
+      0.476
+    ]
+  },
+  {
+    "id": "in-005",
+    "subject": "Really unhappy, third time contacting support",
+    "incoming_email": "This is the third time I'm writing about my missing package. Nobody has actually resolved it, just apologies. I'm extremely frustrated and considering disputing the charge with my bank.",
+    "generated_reply": "Hi there,\n\nYou're right to be frustrated - three emails about the same missing package without a real resolution is genuinely not okay, and I'm sorry the earlier replies were apologies rather than action.\n\nI'm taking this over personally now. I'm opening a direct trace with the carrier today to locate your package, and rather than have you wait on that, I'd like to make it right immediately: I can send a replacement now or issue a full refund - your choice, and I'll action whichever you reply with straight away. I'm also flagging your case to my team lead so you have a single point of contact and don't get another generic response.\n\nYou're of course free to dispute the charge with your bank, but I'm confident we can resolve this for you directly and faster. Thank you for your patience - I'll see this one through.\n\nBest,\nSupport Team",
+    "retrieved_example_ids": [
+      "pf-001",
+      "pd-002",
+      "es-001"
+    ],
+    "retrieved_scores": [
+      0.228,
+      0.209,
+      0.159
+    ]
+  },
+  {
+    "id": "in-006",
+    "subject": "Feature suggestion - bulk export",
+    "incoming_email": "Would it be possible to add a bulk export option? Right now I have to export one report at a time which is really slow when I need 30 of them.",
+    "generated_reply": "Hi there,\n\nThat's a reasonable ask - exporting 30 reports one at a time is exactly the kind of repetitive work an export feature should save you. I've logged a feature request for bulk/multi-report export with our product team and noted your specific use case (needing ~30 at once), since a concrete workflow like that helps them prioritize.\n\nI don't have a ship date to promise yet, but I'll make sure you're updated if and when it lands. In the meantime, if you let me know a bit more about how you use the exports, I'll check whether there's any existing shortcut that gets you part of the way there.\n\nBest,\nSupport Team",
+    "retrieved_example_ids": [
+      "fr-002",
+      "fr-001",
+      "pd-002"
+    ],
+    "retrieved_scores": [
+      0.407,
+      0.139,
+      0.097
+    ]
+  },
+  {
+    "id": "in-007",
+    "subject": "Great job on the recent fix",
+    "incoming_email": "Just wanted to say the sync issue I reported last month is completely fixed now. Really appreciate the quick turnaround, thank you!",
+    "generated_reply": "Hi there,\n\nThank you - this genuinely made our day to read. I'm really glad the sync issue is fully sorted, and I'll pass your thanks along to the team who worked on the fix; hearing that it made a difference means a lot to them.\n\nIf anything else ever comes up, you know where to find us. Thanks again for taking the time to write in!\n\nBest,\nSupport Team",
+    "retrieved_example_ids": [
+      "pf-001",
+      "os-004",
+      "bd-001"
+    ],
+    "retrieved_scores": [
+      0.532,
+      0.129,
+      0.12
+    ]
+  },
+  {
+    "id": "in-008",
+    "subject": "Question about shipping to Canada",
+    "incoming_email": "Before I place a large order, can you tell me if you ship to Canada and what the typical delivery time and any customs fees would be?",
+    "generated_reply": "Hi there,\n\nYes, we do ship to Canada. For most Canadian addresses, standard international delivery typically runs around 7-14 business days, though customs processing can occasionally add a few days on top of that.\n\nOn fees: the exact shipping cost and estimated delivery for your specific order will show at checkout once you enter your Canadian address, since it depends on what's in your cart. Any customs duties or import taxes are assessed separately by Canadian customs rather than by us, so those aren't something we collect or can quote precisely up front - but if you tell me roughly what you're planning to order, I'm happy to point you to typical rates.\n\nHappy to answer anything else before you place the order.\n\nBest,\nSupport Team",
+    "retrieved_example_ids": [
+      "sd-003",
+      "gi-001",
+      "os-001"
+    ],
+    "retrieved_scores": [
+      0.344,
+      0.337,
+      0.205
+    ]
+  }
+]
